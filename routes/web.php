@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CustomerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +19,5 @@ Route::get('/', function () {
 });
 
 */
-Route :: get('/', function(){
-    return view('layouts.admin_base');
-});
+
+Route::resource('customer',CustomerController::class);
