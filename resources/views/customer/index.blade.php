@@ -60,7 +60,8 @@
                                 {{$customer->phone}}
                             </td>
                             <td>{{$customer->email}}</td>
-                            <td class="hidden-480">{{$customer->adddress}}</td>
+                            <td> {{$customer->adddress}}</td>
+                         <!--   <td class="hidden-480">{{$customer->adddress}}</td>-->
                             <td>{{$customer->purchase_info}}</td>
 
                             <td class="hidden-480">
