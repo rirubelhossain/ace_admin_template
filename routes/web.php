@@ -20,4 +20,5 @@ Route::get('/', function () {
 */
 Route :: get('/', function(){
     return view('layouts.admin_base');
+    
 });
